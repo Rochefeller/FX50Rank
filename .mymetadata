@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="FX50Rank"
+  id="myeclipse.1502087901186"
+  context-root="/FX50Rank"
+  j2ee-spec="6.0"
+  archive="FX50Rank.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

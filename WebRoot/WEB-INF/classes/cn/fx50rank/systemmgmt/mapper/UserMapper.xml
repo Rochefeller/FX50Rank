@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.fx50rank.systemmgmt.mapper.UserMapper">
+ 
+  <select id="findUserByPhone" resultType="cn.fx50rank.systemmgmt.bean.User" parameterType="java.lang.String">
+    select id,user_name userName,user_type userType, password, mobile_phone, last_login_date lastLoginDate,invite_code inviteCode,recommend_id recommendId,user_email userEmail,remarks from user 
+    where user.mobile_phone = #{mobilePhone}
+  </select>
+  
+  <insert id="addUser" parameterType="cn.fx50rank.systemmgmt.bean.User" useGeneratedKeys="true" keyProperty="id">
+    insert into user(user_name, password,mobile_phone, last_login_date, invite_code, recommend_id, user_email) values(#{userName}, #{password}, #{mobilePhone}, #{lastLoginDate}, #{inviteCode}, #{recommendId},#{userEmail})
+  </insert>
+  
+  
+  
+</mapper>

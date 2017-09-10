@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+span{
+      text-align:justify; text-justify:distribute-all-lines; text-align-last:justify;width:100px;
+  }

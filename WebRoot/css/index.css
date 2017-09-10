@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+body{background: #f0f1f5;}
+.left{float: left;}
+.right{float: right;}
+span a{color: #555;}
+span a:hover{color: #ff6200;}
+.tabContBox .tabCont{ display:none;}
+.tabContBox .on.tabCont{ display:block;}
+
+/*头部*/
+.header{width: 100%;height: 50px;background:#4e4f5a}
+
+
+/*banner*/
+.focus{width:1200px;height:450px;position:relative;}
+.focus .timedata{margin-top: 389px;margin-left: 75px;color: #fff;}
+.focus .timedata span{float: left;font-size: 16px}
+.focus .timedata .prodata{float:left;padding-left: 10px;width:50%}
+.focus .timedata .prodata i{background: url('../images/Numbers.png') no-repeat;padding:20px 13px;margin-right: 2px;float: left;margin-top: -8px;background-position: 0px -40px;}
+.focus .timedata .prodata i:first-child{background-position: 0px 0px;}
+.focus .timedata .prodata span{padding:0 5px;padding-top: 7px;}
+
+
+.focus #pic{ position:relative; width:1200px;height:450px;overflow:hidden;}
+.focus .img{position: absolute;cursor: pointer;}
+.focus .tabs{position: absolute;bottom: 0;margin-bottom: 10px;left: 50%;margin-left: -73px;}
+.focus .tab{ display:inline-block; width:16px;height:16px;margin:0 2px;cursor:pointer;background:url(../images/focus_tip.png) no-repeat;}
+.focus .tab.active{background:url(../images/focus_tip_current.png) no-repeat;}
+.focus .banner_btn{position: absolute;height: 100px;width: 60px;background-color: rgba(0,0,0,.5);color: white;font-size: 40px;text-align: center;line-height: 100px;top: 50%;margin-top: -50px;cursor: pointer;}
+.focus .btn_right{right: 0}
+
+.focus #pic ul{width:7200px;}
+.focus #pic li{width:1200px;height:450px;float:left;}
+.focus #pic li .bg1{background:url(../images/banner/banner1.jpg) no-repeat;}
+.focus #pic li .bg2{background:url(../images/banner/banner2.jpg) no-repeat;}
+.focus #pic li .bg3{background:url(../images/banner/banner3.jpg) no-repeat;}
+.focus #pic li .bg4{background:url(../images/banner/banner4.jpg) no-repeat;}
+.focus #pic li .bg5{background:url(../images/banner/banner5.jpg) no-repeat;}
+.focus #pic li .bg6{background:url(../images/banner/banner6.jpg) no-repeat;}
+
+.focus #pic li .bg {width:1200px;height:450px; position:relative; overflow:hidden;}
+.focus #pic li .bgkvb{background:url(../Act/Kvb/images/banner2.jpg) no-repeat;}
+.focus #pic li .bgabab{background:url(../Act/Wow/images/banner.jpg) no-repeat;}
+.focus #pic li .bgaa{background:url(../images/big_banner.jpg) no-repeat;}
+.focus #pic li .bgg{background:url(../Act/FuHuiTopic/images/headBanner.jpg) no-repeat;}
+.focus #pic li .bga{background:url(../images/cj_banner.jpg) no-repeat;}
+.focus #pic li .bgb{background:url(../images/bg2.jpg) no-repeat;}
+.focus #pic li .memberBanner{background:url(../images/member_Banner.jpg) no-repeat;}
+.focus #pic li .bgc{background:url(../images/banner_app.jpg) no-repeat;}
+.focus #pic li .bgd{background:url(../images/touBanner.jpg) no-repeat;}
+.focus #pic li .bge{background:url(../images/traderBanner.jpg) no-repeat;}
+.focus #pic li .bgf{background:url(../images/turn_banner.jpg) no-repeat;}
+
+.focus .tip-bg{width:1200px;height:16px;position:absolute;left:0;bottom:0;z-index:12;}
+.focus #tip{width:100%;height:16px;position:absolute;left:0;bottom:15px; z-index:13; text-align:center; }
+.focus #tip ul li{ display:inline-block; width:16px;height:16px;margin:0 2px;cursor:pointer;background:url(../images/focus_tip.png) no-repeat;}
+.focus #tip ul li.current{background:url(../images/focus_tip_current.png) no-repeat;}
+.focus .btn{width:200px;height:50px;background:url(../images/btn.png);background-position: 0px 0px;margin-top:300px;margin-left:565px;overflow:hidden;}
+.focus .btn:hover{background-position: 0px -50px;}
+.focus .focus_arrow { position:absolute; top:50%; margin-top:-35px; width:40px; height:70px; z-index:10; background:url(../images/focus_arrow.png) no-repeat; }
+.focus .btn_left { left:0;}
+.focus .btn_left:hover { background-position:0 -75px; }
+.focus .btn_right { right:0; background-position:0 -150px;}
+.focus .btn_right:hover { background-position:0 -225px;}
+.bge .wybm_btn{ display: block; margin:255px auto 0; width:220px;height: 60px;text-align: center; line-height:60px; background-color:rgba(25,150,247,.7);font-size: 28px; border-radius:2px; color:#fff;}
+.bge .wybm_btn:hover{background-color:rgba(25,150,247,.9);}
+.focus .ljty_btns{ display: block; margin: 300px auto 0; width: 178px; height: 48px; line-height: 48px; font-size: 20px; color: #fff; text-decoration: none; text-align: center; border-radius: 1px; border:1px solid #fff;}
+.focus .ljty_btns:hover{ background-color: #fff; text-decoration: none; color: #ff6200;}
+
+
+
+/*login*/
+.login{width: 100%;height:70px;background: #fff;box-shadow: 0px 5px 5px #eee;}
+.login .lgmain{width: 1200px;height: 70px;margin: 0 auto;}
+.login .lgmain .lg_l{color:#555;font-size: 16px;line-height: 70px;}
+.login .lgmain .lg_r{margin-top: 18px;}
+.login .lgmain .lg_r .lgr_top1{float: left;margin-right: 9px;border-radius: 2px;}
+.login .lgmain .lg_r .lgr_email{width: 183px;height: 27px;padding-top:6px;border: 1px solid #eaebef;padding-left: 25px;background: url(../images/index/login_icon1.png)7px center no-repeat; background-color:#fff;}
+.login .lgmain .lg_r .lgr_email .icheckbox_square-blue{top:1px;margin-left: 4px;left: 3px;}
+.login .lgmain .lg_r .lgr_email .email{width: 114px;font-size: 12px;border: none;}
+.login .lgmain .lg_r .lgr_email i.gou{width:13px;height: 13px;display: inline-block;background:url(../images/index/login_gou1.png) no-repeat; vertical-align: middle;margin-left: 9px;}
+.login .lgmain .lg_r .lgr_email i.gou1{background:url(../images/index/login_gou2.png) no-repeat;}
+.login .lgmain .lg_r .lgr_email span{font-size: 12px;color:#999;vertical-align: middle;margin-left: 4px;}
+.login .lgmain .lg_r .lgr_pass{width: 183px;height: 27px;padding-top:6px;border: 1px solid #eaebef;padding-left: 25px;background: url(../images/index/login_icon2.png)7px center no-repeat; background-color:#fff;}
+.login .lgmain .lg_r .lgr_pass input{width: 114px;font-size: 12px;border: none;margin-right: 4px;}
+.login .lgmain .lg_r .lgr_pass a{font-size: 12px;}
+.login .lgmain .lg_r .lgr_code{width: 158px;height: 33px;border: 1px solid #eaebef;color: #999;}
+.login .lgmain .lg_r .lgr_code input{width: 84px;font-size: 12px;border: none;float: left;padding: 8px 0 0 5px;}
+.login .lgmain .lg_r .lgr_code a{float:right;}
+.login .lgmain .lg_r .lgr_code a img{width: 69px;height: 33px;}
+.login .lgmain .lg_r .lgr_btnlog button{width: 100px;height: 34px;border:1px solid #ff6200;background:#fff;border-radius: 2px;font-size: 16px;color: #ff6200;cursor: pointer;}
+.login .lgmain .lg_r .lgr_btnlog button:hover{background:#ff6200;border-radius: 2px;font-size: 16px;color: #fff;}
+.login .lgmain .lg_r .lgr_btnlog1 button{background:#ff6200;color:#fff}
+.login .lgmain .lg_r .lgr_btnlog1 button:hover{background:#ff7e00;}
+
+.login .lgmain .lg_r .lgr_oth{line-height: 35px;color: #555;font-size: 12px;}
+.login .lgmain .lg_r .lgr_oth a{width: 27px;height: 26px;display: inline-block;background: url(../images/index/login_icon3.png) no-repeat;vertical-align: middle;cursor: pointer;}
+.login .lgmain .lg_r .lgr_oth a:hover{opacity:.8;}
+.login .lgmain .lg_r .lgr_oth a.i1{background: url(../images/index/login_icon4.png) no-repeat;margin-left: 5px;}
+.login .lgmain .lg_r .lgr_oth a.i2{background: url(../images/index/login_icon5.png) no-repeat;margin-left: 5px;}
+.login .lgmain .lgr_hover:hover{border:1px solid #a1a4ad}
+.login .lgmain .lgr_error{border:1px solid red}
+
+
+
+.content{width: 1200px;margin: 0  auto;margin-top:22px}
+.content .ht_title{width: 100%;height: 67px;line-height: 67px;}
+.content .ht_title span{font-size: 18px;float: left;margin-right: 15px;}
+.content .ht_title ul{float: left;color: #555;font-size: 12px;margin: 23px 0;}
+.content .ht_title ul li{float: left;width: 48px;height:20px;line-height:20px;text-align: center;cursor: pointer;position: relative;}
+.content .ht_title ul li:hover{color:#ff6200;}
+.content .ht_title ul li.on{color:#ff6200;}
+.content .ht_title ul li.on:after{content: "";position:absolute;left:19px;display: block;width: 0;height: 0;border-left: 5px solid transparent;border-right: 5px solid transparent;border-bottom: 5px solid #ff6200;}
+.content .ht_title a{float: right;font-size: 12px;margin-right: 6px;height: 67px;}
+.content .ht_title a i{font-family:"宋体";}
+.content .fp_line{padding:16px 0 21px 0;margin:0 20px;border-bottom: 1px solid #edeef1;}
+.content .fp_line:last-child{border-bottom: none;padding-top: 15px;}
+.content .fp_line img{width: 50px;height: 50px;border-radius: 50%;float: left;margin-right: 6px;}
+.content .fp_line .fp_m_left{float: left;}
+.content .fp_line .fp_m_left .m_top{color: #555;line-height: 20px;;}
+.content .fp_line .fp_m_left .m_top>a{display: inline-block;vertical-align:middle;max-width: 69px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.content .fp_line .fp_m_left .m_top .account_pull_box{margin-left:3px}
+.content .fp_line .fp_m_left .m_top .account_pull_box .pull_listbox .scroll_wrap:before{content:"";display:block;width:240px;height:17px;background:none;position:absolute;left:-1px;top:-18px}
+.content .fp_line .fp_m_left .m_top i.icon{margin-top: -3px;}
+.content .fp_line p{margin-top: 7px;}
+.content .fp_line .fp_m_right{float:right;}
+.content .fp_line .fp_m_right .m_top{color: #00aa6d;font-size: 16px;line-height: 20px;margin-top: 0;}
+.content .fp_line .fp_m_right .red{color:#ed0101;}
+.content .fp_line .fp_m_right p{text-align: right;}
+
+.index_con1{width:1200px;height: 417px;}
+.index_con1 .hottrader{width: 800px;float: left;}
+.index_con1 .hottrader .ht_box .ht_blist{width: 260px;height: 350px;background: #fff;text-align: center;float: left;margin-right: 10px;}
+/*.index_con1 .hottrader .ht_box .ht_blist:first-child{box-shadow: 0px 5px 15px #cacdd2;}*/
+.index_con1 .hottrader .ht_box .ht_blist:last-child{margin-right: 0;}
+.index_con1 .hottrader .ht_box .ht_blist .maheader{width:220px;padding: 18px 0;margin-left:20px;text-align:left;}
+.index_con1 .hottrader .ht_box .ht_blist .maheader .account_pull_box{margin-left:3px}
+.index_con1 .hottrader .ht_box .ht_blist .maheader .account_pull_box .pull_listbox .scroll_wrap:before{content:"";display:block;width:240px;height:17px;background:none;position:absolute;left:-1px;top:-18px}
+.index_con1 .hottrader .ht_box .ht_blist .maheader img{width: 30px;height: 30px;border-radius: 50%;vertical-align: middle;margin-right: 4px;}
+.index_con1 .hottrader .ht_box .ht_blist .maheader>span{ display:inline-block;color: #555;vertical-align: middle;}
+.index_con1 .hottrader .ht_box .ht_blist .maheader>span>a{display: inline-block;vertical-align:middle;max-width: 69px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.index_con1 .hottrader .ht_box .ht_blist h3{color: #00aa6d;font-size:26px;margin-top: 6px;}
+.index_con1 .hottrader .ht_box .ht_blist p{color: #999;margin-top: 4px;margin-bottom: 35px;}
+.index_con1 .hottrader .ht_box .ht_blist .ht_line{width: 220px;line-height: 38px;border-top:1px solid #edeef1;margin: 0 auto;overflow: hidden;}
+.index_con1 .hottrader .ht_box .ht_blist .in_btn{width: 218px;height: 33px;border: 1px solid #ff6200;display: inline-block;line-height: 33px;color: #ff6200;cursor: pointer;margin-top: 10px;transition: background 500ms;}
+.index_con1 .hottrader .ht_box .ht_blist .in_btn:hover{background: #ff6200;color: #fff;}
+.index_con1 .follower_proceeds{float: right;width: 382px;}
+.index_con1 .follower_proceeds .fp_box{382px;height: 350px;background: #fff;}
+
+.index_con2{width:1200px;height:419px;}
+.index_con2 .trading_dynamics{width: 800px;height:419px;float: left; position:relative; overflow:hidden;}
+.index_con2 .trading_dynamics .account_pull_box{margin-left:0 !important;}
+.index_con2 .trading_dynamics .td_box .fp_line{width: 764px;height: 52px;padding:14px 18px 14px 16px;background:#fff;margin:0 0 10px 0;border-bottom: none;}
+.index_con2 .trading_dynamics .td_box .fp_line:first-child{background: #fff5ec;border: 1px solid #ffd9ba;}
+.index_con2 .trading_dynamics .td_box .fp_line:last-child{margin-bottom: 0;}
+.index_con2 .trading_dynamics .td_box .fp_line .fp_m_right p{margin-top: 0;margin-bottom:10px;font-size: 12px;}
+.index_con2 .trading_dynamics .td_box .fp_line .fp_m_right .m_top{margin-bottom: 0;font-size: 16px;}
+.index_con2 .trading_dynamics .td_box .hide_block { opacity:0; visibility:hidden;}
+.index_con2 .trading_dynamics .td_box .show_block { opacity:1; visibility:visible;}
+
+
+.index_con2 .star_trader{width: 380px;height:419px;float: right;}
+.index_con2 .star_trader .st_box{width: 380px;height: 350px;background: #fff;}
+.index_con2 .star_trader .st_box .account_pull_box{margin-left:0 !important;}
+.index_con2 .star_trader .st_box .fp_line{border-bottom: 1px solid #edeef1;}
+.index_con2 .star_trader .st_box .fp_line:last-child{border-bottom: none;}
+.index_con2 .star_trader .st_box .fp_line .fp_m_right{text-align: right;}
+.index_con2 .star_trader .st_box .fp_line .fp_m_right .st_xin{height: 15px;padding-top: 5px;font-size:0;}
+.index_con2 .star_trader .st_box .fp_line .fp_m_right .st_xin i.xin{width: 11px;height: 11px;display:inline-block;background: url(../images/index/in_xin.png) no-repeat;margin-left: 3px;}
+.index_con2 .star_trader .st_box .fp_line .fp_m_right .st_xin i.xin2{background: url(../images/index/in_xin2.png) no-repeat;}
+
+.index_con3{width:1200px;height:477px;}
+.index_con3 .micro_blog{width: 800px;height: 477px;}
+.index_con3 .micro_blog .mb_box{width: 800px;height: 410px;}
+.index_con3 .micro_blog .mb_box .mb_line{padding: 15px 20px 15px 15px;background: #fff;overflow: hidden;}
+.index_con3 .micro_blog .mb_box .mb_line{margin-bottom: 10px;width: 765px;}
+.index_con3 .micro_blog .mb_box .mb_line:last-child{margin-bottom: 0;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_left img{width: 190px;height: 100px;display: block;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right{width: 560px;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_title{overflow: hidden;margin-top: -4px;margin-bottom: 7px;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_title a{color:#333;font-size: 16px;max-width: 436px;display: inline-block;overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_title a:hover{color:#ff6200;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_title span{font-size: 12px;color: #999;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right p{line-height: 20px;height: 40px;overflow: hidden;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_bot{overflow: hidden;margin-top: 14px;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_bot .mbline_bot_l img{width: 20px;height: 20px;border-radius: 50%;vertical-align: middle;margin-right: 2px;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_bot .mbline_bot_l span{color: #555;font-size: 12px;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_bot ul li{float: left; margin: 0 6px;color: #ccc;font-size: 12px;cursor:pointer}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_bot ul li a{color: #999; cursor:text;}
+.index_con3 .micro_blog .mb_box .mb_line .mb_line_right .mbline_bot ul li a:hover{color: #999;;}
+.index_con3 .financial_headlines{width: 380px;height: 477px;}
+.index_con3 .financial_headlines .ht_title span{margin-right: 14px;color: #777;cursor: pointer; font-size:17px;}
+.index_con3 .financial_headlines .ht_title span:hover{color: #ff6200;}
+.index_con3 .financial_headlines .ht_title span.on{color:#333;}
+.index_con3 .financial_headlines .ht_title span.colorc{color: #ccc;}
+.index_con3 .financial_headlines .fh_box{width: 380px;height: 410px;background: #fff;}
+.index_con3 .financial_headlines .fh_box .fh_line{padding: 19px 0 13px 0;margin: 0 20px;border-bottom: 1px solid #edeef1;overflow: hidden;}
+.index_con3 .financial_headlines .fh_box .fh_line:last-child{border-bottom: none;padding-top: 18px;}
+.index_con3 .financial_headlines .fh_box .fh_line_left img{width: 100px;height: 70px;display: block;}
+.index_con3 .financial_headlines .fh_box .fh_line_right{width: 227px;}
+.index_con3 .financial_headlines .fh_box .fh_line_right a{width: 226px;display: inline-block;color: #333;overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
+.index_con3 .financial_headlines .fh_box .fh_line_right a:hover{color:#ff6200;}
+.index_con3 .financial_headlines .fh_box .fh_line_right p{color: #999;font-size: 12px;height: 40px;line-height: 20px;overflow: hidden;margin-top: 5px;}
+
+.footer{width: 100%;margin-top: 30px;background:#fff;}
+.footer .page-width{width: 1200px;margin: 0 auto;}
+.footer .page-width ul li a{color: #555 !important;margin-right: 24px !important;}
+.footer .page-width ul li a:hover{color: #ff6200 !important;}
